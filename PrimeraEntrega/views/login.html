@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Login - Primera Entrega Proyecto Final</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../public/css/style.css" />
+	</head>
+
+	<body>
+		<div class="container small">
+			<div class="jumbotron">
+				<h1>LOGIN</h1>
+				<br />
+				<form class="form" role="form" action="catalog.html" method="POST" autocomplete="off">
+					<div class="form-group">
+						<input name="email" placeholder="Email" class="form-control" type="email" required />
+					</div>
+					<div class="form-group">
+						<input name="password" placeholder="Password" class="form-control" type="password" required />
+					</div>
+
+					<div class="form-group">
+						<input class="btn-success" onclick="" type="submit" value="Login" />
+					</div>
+				</form>
+
+				<hr />
+
+				<button class="btn-success" onclick="goSignup()">SignUp</button>
+			</div>
+		</div>
+
+		<script>
+			function redireccionar(pagina) {
+				location.href = pagina;
+			}
+
+			function goSignup() {
+				console.log('hola');
+				redireccionar('signup.html');
+			}
+		</script>
+	</body>
+</html>

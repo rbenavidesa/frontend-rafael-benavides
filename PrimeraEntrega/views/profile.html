@@ -1,0 +1,86 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mi Perfil - Primera Entrega Proyecto Final</title>
+		<link rel="stylesheet" href="../public/css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container" style="width: 50%">
+			<div class="starter-template">
+				<div class="alert-success">
+					<div>
+						<span><strong>Bienvenido Rafael</strong></span>
+						<div class="profile-header-img">
+							<img class="img-thumbnail" width="75" height="75" src="http://localhost:8080/uploads/2022-06-25T05:02:39.138Z_profile.jpeg" />
+						</div>
+						<form action="login.html">
+							<button type="submit" class="btn btn-warning" role="button">Logout</button>
+						</form>
+					</div>
+				</div>
+
+				<nav class="navbar">
+					<ul>
+						<li><a href="catalog.html">Catálogo de Productos</a></li>
+						<li><a href="my-cart.html">Mi Carrito</a></li>
+						<li><a class="active" href="profile.html">Mi Perfil</a></li>
+					</ul>
+				</nav>
+
+				<h3 class="text-primary">Datos del Usuario</h3>
+
+				<div class="container2">
+					<div class="row">
+						<div class="col-25">
+							<label for="firstName">Nombre</label>
+						</div>
+						<div class="col-75">
+							<input id="firstName" class="form-control" type="text" name="firstName" value="Rafael" disabled="" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="lastName">Apellido</label>
+						</div>
+						<div class="col-75">
+							<input id="lastName" class="form-control" type="text" name="lastName" value="Benavides" disabled="" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="age">Edad</label>
+						</div>
+						<div class="col-75">
+							<input id="age" class="form-control" type="text" name="age" value="34" disabled="" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="address">Dirección</label>
+						</div>
+						<div class="col-75">
+							<input id="address" class="form-control" type="text" name="address" value="Fernando de Arguello 8770, Vitacura" disabled="" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="email">Email</label>
+						</div>
+						<div class="col-75">
+							<input id="email" class="form-control" type="text" name="email" value="rafael_benavides@outlook.com" disabled="" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="phoneNumber">Teléfono</label>
+						</div>
+						<div class="col-75">
+							<input id="phoneNumber" class="form-control" type="text" name="phoneNumber" value="+56991959669" disabled="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

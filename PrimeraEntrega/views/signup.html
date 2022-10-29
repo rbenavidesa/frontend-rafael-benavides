@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>SignUp - Primera Entrega Proyecto Final</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../public/css/style.css" />
+	</head>
+
+	<body>
+		<div class="container small">
+			<div class="jumbotron">
+				<h1>SIGNUP</h1>
+				<br />
+				<form id="signup-form" class="form" role="form" action="catalog.html" method="" autocomplete="off" enctype="multipart/form-data">
+					<div class="form-group">
+						<input name="email" placeholder="email" class="form-control" type="email" required />
+					</div>
+					<div class="form-group">
+						<input name="password" placeholder="Password" class="form-control" type="password" required />
+					</div>
+					<div class="form-group">
+						<input name="firstName" placeholder="Nombre" class="form-control" type="text" required />
+					</div>
+					<div class="form-group">
+						<input name="lastName" placeholder="Apellido" class="form-control" type="text" required />
+					</div>
+					<div class="form-group">
+						<input name="age" placeholder="Edad" class="form-control" type="text" required />
+					</div>
+					<div class="form-group">
+						<input name="address" placeholder="Dirección" class="form-control" type="text" required />
+					</div>
+					<div class="form-group">
+						<input name="phoneNumber" placeholder="Teléfono" id="phoneNumber" type="tel" class="form-control" required />
+					</div>
+					<div class="input-group mb-3">
+						<label class="input-group-text" for="inputGroupFile01">Foto de Perfil</label>
+						<input name="profilePicture" type="file" class="form-control" id="inputGroupFile01" />
+					</div>
+
+					<div class="form-group">
+						<input class="btn btn-success my-3" type="submit" value="SingUp" />
+					</div>
+				</form>
+				<div>
+					<button class="btn btn-success my-3" onclick="login()">Ir al Login</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			function redireccionar(pagina) {
+				location.href = pagina;
+			}
+
+			function login() {
+				redireccionar('login.html');
+			}
+		</script>
+	</body>
+</html>

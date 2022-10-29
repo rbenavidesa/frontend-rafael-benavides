@@ -1,0 +1,61 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mi Carrito - Primera Entrega Proyecto Final</title>
+		<link rel="stylesheet" href="../public/css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container" style="width: 50%">
+			<div class="starter-template">
+				<div class="alert-success">
+					<div>
+						<span><strong>Bienvenido Rafael</strong></span>
+						<div class="profile-header-img">
+							<img class="img-thumbnail" width="75" height="75" src="http://localhost:8080/uploads/2022-06-25T05:02:39.138Z_profile.jpeg" />
+						</div>
+						<form action="login.html">
+							<button type="submit" class="btn btn-warning" role="button">Logout</button>
+						</form>
+					</div>
+				</div>
+
+				<nav class="navbar">
+					<ul>
+						<li><a href="catalog.html">Catálogo de Productos</a></li>
+						<li><a class="active" href="my-cart.html">Mi Carrito</a></li>
+						<li><a href="profile.html">Mi Perfil</a></li>
+					</ul>
+				</nav>
+
+				<h3 class="text-primary">Listado de productos</h3>
+
+				<div class="container2">
+					<dl>
+						<dt><h4>Escuadra</h4></dt>
+						<dd>- Codigo de producto: prod-001</dd>
+						<dd>- Precio: 130</dd>
+						<dd>- Descripción: Plantilla con forma de triángulo isósceles</dd>
+						<hr />
+						<dt><h4>Microscopio</h4></dt>
+						<dd>- Codigo de producto: prod-006</dd>
+						<dd>- Precio: 1200</dd>
+						<dd>- Descripción: Instrumento de amplificación visual</dd>
+						<hr />
+						<dt><h4>Lapiz</h4></dt>
+						<dd>- Codigo de producto: prod-008</dd>
+						<dd>- Precio: 55</dd>
+						<dd>- Descripción: Instrumento para escribir</dd>
+						<hr />
+					</dl>
+
+					<h1 class="text-primary">Total a pagar: 1.385</h1>
+
+					<form action="" method="POST">
+						<button type="submit" class="btn btn-warning" role="button">Hacer Pedido</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
